@@ -108,7 +108,7 @@ button {
 
 .nav__link--primary {
   border: 2px solid #7432d6;
-  border: 4px;
+  border-radius: 4px;
 }
 
 .nav__link--primary:hover {
