@@ -107,9 +107,9 @@ button {
 }
 
 .nav__link--primary {
-  border: 2px solid #7432d6;
-  border: 4px;
-}
+    border: 2px solid #7432d6;
+    border-radius: 4px;
+  }
 
 .nav__link--primary:hover {
   text-decoration: none;
@@ -220,6 +220,7 @@ h2 {
 .btn__menu {
     background-color: transparent;
     font-size: 40px;
+    text-align: center;
     border: none;
     color: #7342d6;
     display: none;
@@ -453,7 +454,8 @@ h2 {
   }
 
   /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
-@media (max-width: 768px) {
+
+  @media (max-width: 768px) {
     .header__description {
       padding: 0 24px;
     }
@@ -477,6 +479,7 @@ h2 {
   
   
   /* SMALL PHONES, LARGE SMARTPHONES */
+  
   @media (max-width: 550px) {
     .btn__menu {
       display: block;
